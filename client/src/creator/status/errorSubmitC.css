@@ -1,0 +1,12 @@
+.errorSubmitContainer {
+    padding: 20px;
+    transform: translateY(30px);
+}
+
+span {
+    color: red;
+}
+
+.displayNone {
+    display: none;
+}

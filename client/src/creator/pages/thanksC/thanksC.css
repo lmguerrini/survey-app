@@ -1,0 +1,31 @@
+.sucessSurveyCgif {
+    width: 400px;
+    margin-bottom: 25px;
+}
+
+.shareableLinkContainer {
+    margin-top: 25px;
+    background-color: rgba(50, 205, 50, 0.638);
+    border-radius: 15px;
+    border-color: rgba(4, 4, 4, 0.097);
+    width: 250px;
+    height: 50px;
+    font-size: 1.1em;
+    color: white;
+    padding: 5px 5px 0 10px;
+}
+.shareableLinkContainer a {
+    color: white;
+    text-decoration: none;
+}
+.shareableLinkContainer:hover {
+    background-color: rgba(50, 205, 50, 0.734);
+}
+
+#copyShareableLink {
+    font-size: 1.7em;
+    transform: translate(-15px, 6px);
+}
+#copyShareableLink:hover {
+    cursor: pointer;
+}

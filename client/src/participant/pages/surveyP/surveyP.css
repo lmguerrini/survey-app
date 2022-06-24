@@ -1,0 +1,84 @@
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.surveyContainer {
+    padding: 0 5vw;
+    /* margin: 10vh 0; */
+    /* border: 3px solid lime; */
+    /* width: 70vw; */
+    min-width: 700px;
+    height: 60vh;
+    overflow-y: scroll;
+    /* scrollbar-color: #d4aa70 #e4e4e4; */
+}
+.surveyContainer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.surveyContainer::-webkit-scrollbar-track {
+    /* background-color: red; */
+    border-radius: 25px;
+}
+
+.surveyContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.583);
+    border-radius: 50px;
+}
+
+ol {
+    text-align: justify;
+}
+
+li {
+    margin-top: 20px;
+    color: red;
+}
+
+.rangeContainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rangeContainer span {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+#range {
+    width: 80%;
+    margin: 0 10%;
+}
+#range:hover,
+input:hover {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    transform: translate(-10px, 5px);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="radio"]:hover {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+input[type="radio"]:checked {
+    background-color: rgba(37, 88, 255, 0.816);
+}
+
+textarea {
+    margin-top: 10px;
+    padding: 7px 10px;
+}
+
+.borderReds {
+    border: 1px solid red;
+}

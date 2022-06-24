@@ -1,0 +1,19 @@
+/* .headerWelcome {
+    text-align: center;
+}
+
+.headerWelcome img {
+    width: 500px;
+    height: fit-content;
+} */
+
+.headerWelcome img {
+    padding-top: 5vh;
+}
+
+h5 {
+    color: rgba(0, 0, 0, 0.678);
+    /* font-size: smaller;
+    letter-spacing: 0px; */
+    font-family: "Courier New", Courier, monospace;
+}

@@ -1,0 +1,7 @@
+button {
+     margin: 5vh 20px;
+}
+
+#btnResults {
+     transform: translateY(30px);
+}
